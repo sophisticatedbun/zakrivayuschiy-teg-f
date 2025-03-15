@@ -244,7 +244,7 @@ button {
   margin: 0 auto;
   margin-block-end: 105px;
   display: flex;
-  align-items: center; 
+  align-items: center;
   align-self: center;
   gap: 9px;
   padding: 15px 20px;
@@ -260,7 +260,6 @@ button {
 }
 
 dialog {
-  border: none;
   border: 2px solid var(--border-color);
   block-size: 195px;
   inline-size: 353px;
