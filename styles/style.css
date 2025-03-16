@@ -119,7 +119,8 @@ button {
   font-size: 14px;
   mix-blend-mode: hard-light;
   opacity: 0.5;
-  -webkit-text-stroke: 1px var(--text-stroke-color);
+  text-shadow: -1px 0 var(--text-stroke-color), 0 1px var(--text-stroke-color), 
+  1px 0 var(--text-stroke-color), 0 -1px var(--text-stroke-color);
 }
 
 @supports (
@@ -307,7 +308,6 @@ dialog::backdrop {
 @media (width <= 375px) {
   .header {
     inline-size: 100%;
-    block-size: 327px;
   }
 
   .card__title {
